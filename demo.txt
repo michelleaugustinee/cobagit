@@ -1,6 +1,26 @@
 Cara menggunakan github:
 1. Git init
 2. Git remote add origin (copy di github)
-3. Git add .
-4. Git commit -m "first commit"
-5. Git push origin master
+bikin file baru
+3. Git add . (semua)
+4. Git commit -m "first commit" (memberi nama)
+5. Git push origin master (untuk menambahkan di branch mana)
+
+Membuat changes pada github :
+1. git add . (semua)
+git add "demo.txt" (hanya file tertentu)
+2. git commit -m made changes (memberi nama)
+3. git push origin master (untuk menambahkan di branch mana)
+
+Membuat branch baru :
+1. git branch beta
+2. git branch (cek)
+3. git checkout beta (untuk pindah ke branch beta)
+bikin file baru
+4. git add .
+6. git commit -m "test new features" (memberi nama)
+7. git push origin beta (untuk menambahkan di branch mana)
+8. git branch -d beta (untuk menghapus branch)
+
+user email : git config --global user.email "michelleaugustinee@gmail.com"
+user name : git config --global user.name "Michelle Augustine"
