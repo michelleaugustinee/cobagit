@@ -8,7 +8,7 @@ bikin file baru
 
 Membuat changes pada github :
 1. git add . (semua)
-2. git commit -m made changes (memberi nama)
+2. git commit -m "made changes" (memberi nama)
 3. git push origin master (untuk menambahkan di branch mana)
 
 Membuat branch baru :
